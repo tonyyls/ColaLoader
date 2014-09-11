@@ -1,37 +1,78 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:background="#ffffff"
-    >
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog——系统默认进度条" />
+
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="基本示例"
         android:id="@+id/btnBasic1"
-        ></Button>
-     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="基本示例—3s自动关闭"
+        android:text="基本示例" >
+    </Button>
+
+    <Button
         android:id="@+id/btnBasic2"
-        ></Button>
-     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="自定义示例"
+        android:text="基本示例—3s自动关闭" >
+    </Button>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ColaLoader——自定义版本" />
+
+    <Button
         android:id="@+id/btnBasic3"
-        ></Button>
-     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="自定义示例—5s自动关闭"
+        android:text="自定义示例" >
+    </Button>
+
+    <Button
         android:id="@+id/btnBasic4"
-        ></Button>
-     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="自定义示例—修改提示文字"
+        android:text="自定义示例—5s自动关闭" >
+    </Button>
+
+    <Button
         android:id="@+id/btnBasic5"
-        ></Button>
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义示例—修改提示文字" >
+    </Button>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ColaProgress——进度条升级版" />
+
+    <Button
+        android:id="@+id/btnBasic6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ColaProgress—常规" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnBasic7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ColaProgress—模拟下载进度" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnBasic8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ColaProgress—无文字" >
+    </Button>
+
 </LinearLayout>
